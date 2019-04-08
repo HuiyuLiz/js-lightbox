@@ -99,7 +99,8 @@ img{
 ```  
 
   ## 參考資料
-  <a href="https://pjchender.blogspot.com/2015/04/css-3vh-vw.html" target="_blank">[筆記] 好用的css 3新單位vh vw ─ 讓你的圖片可以隨著螢幕大小而不同</a>  
+  <a href="https://www.zhangxinxu.com/wordpress/2015/03/css3-object-position-object-fit/" target="_blank">半深入理解CSS3 object-position/object-fit屬性</a>  
+<a href="https://pjchender.blogspot.com/2015/04/css-3vh-vw.html" target="_blank">[筆記] 好用的css 3新單位vh vw ─ 讓你的圖片可以隨著螢幕大小而不同</a>  
   <a href="https://www.youtube.com/watch?v=afoxd5b0bJo" target="_blank">Modern Image Gallery With ES6 Vanilla JavaScript</a>   
   <a href="https://www.youtube.com/watch?v=wWWNrANNO1k" target="_blank">Full Screen Responsive Image Slider</a>    
   <a href="https://www.youtube.com/watch?v=2iclZL9SUqA" target="_blank">你的 jQuery 我來 VUE 第一集：簡易輪播篇</a>       
