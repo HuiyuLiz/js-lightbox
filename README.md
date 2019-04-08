@@ -38,7 +38,7 @@
 }) 
   ```  
   ## 顯示上一張  
-  將 index 作為使用 imgs 的索引，如imgs[index]。當 index 大於1，每按一次， index 減 1 ；翻到第一張 imgs[0] 後，再按上一張時會顯示 imgs[5] (imgs 陣列長度 6 減 1)。
+  將 index 作為使用 imgs 的索引，如imgs[index]。當 index 大於0，每按一次， index 減 1 ；翻到第一張 imgs[0] 後，再按上一張時會顯示 imgs[5] (imgs 陣列長度 6 減 1)。
   ```js
   let prevSlide = function () {
     index > 0 ? index-- : index = imgs.length - 1
@@ -50,7 +50,7 @@
   prev.addEventListener('click', prevSlide)
   ```  
   ## 顯示下一張  
-  當 index 小於 5(imgs 陣列長度 6 減 1)，每按一次， index 加 1；按到最後一張時回到第一張 index = 0，進行輪播。
+  當 index 小於 5(imgs 陣列長度 6 減 1)，每按一次， index 加 1；按到最後一張時回到第一張 imgs[0]，進行輪播。
   ```js
   let nextSlide = function () {
     index < imgs.length - 1 ? index++ : index = 0
@@ -86,7 +86,7 @@
   ## 照片底下沒有滿版怎麼辦? 除了 vertical-align:baseline 以外的解決方法
    ![image]( https://github.com/HuiyuLiz/js-lightbox/blob/master/img/screenshot-1.jpg)    
    
-   基於 img 預設 vertical-align: baseline，可以看到圖片底下因沒有滿版而出現的空隙，解決的方式如下。
+   基於 img 預設 vertical-align: baseline，可以看到圖片底下因沒有滿版而出現了空隙，解決方式如下。
    
 ```css
 img{
