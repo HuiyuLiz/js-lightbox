@@ -38,7 +38,7 @@
 }) 
   ```  
   ## 顯示上一張  
-  將 index 作為使用 imgs 的索引，如imgs[index]。當 index 大於0，每按一次， index 減 1 ；翻到第一張 imgs[0] 後，再按上一張時會顯示 imgs[5] (imgs 陣列長度 6 減 1)。
+  將 index 作為 imgs 的索引，如imgs[index]。當 index 大於0，每按一次， index 減 1 ；翻到第一張 imgs[0] 後，再按上一張時會顯示 imgs[5] (imgs 陣列長度 6 減 1)。
   ```js
   let prevSlide = function () {
     index > 0 ? index-- : index = imgs.length - 1
