@@ -1,7 +1,7 @@
 # JavaScript 題目篇 - 新手 JS 地下城
  ![image]( https://github.com/HuiyuLiz/js-lightbox/blob/master/img/screenshot-3.jpg)  
  
-11F - 燈箱效果 <a href="https://huiyuliz.github.io/js-lightbox/" target="_blank">Demo</a>，採原生 JS 破關，排版使用 SCSS 進行響應式設計。
+11F - 燈箱效果 <a href="https://huiyuliz.github.io/js-lightbox/" target="_blank">原生 JS Demo</a>，<a href="https://codepen.io/liscodecode/pen/XQjMrq" target="_blank">Vue.js Demo</a>，排版使用 Flex 和 Grid 進行響應式設計。
 
  ## 特定技術 
  1.不可用 JS 框架，只能單純用原生 JS。  
@@ -97,6 +97,9 @@ img{
   vertical-align: top;
 }
 ```  
+   ## 使用 Grid 製作出響應式的正方形  
+  <a href="https://codepen.io/krystof-k/pen/vdNQGB" target="_blank">Flexible square grid with CSS Grid Layout</a>  
+   
 
   ## 參考資料
   <a href="https://www.zhangxinxu.com/wordpress/2015/03/css3-object-position-object-fit/" target="_blank">半深入理解CSS3 object-position/object-fit屬性</a>  
