@@ -6,7 +6,27 @@
  ## 特定技術 
  1.不可用 JS 框架，只能單純用原生 JS。  
  2.需符合響應式設計，什麼你說設計稿沒提供？嗯，你是勇者嘛，通靈什麻的一定略懂略懂嘍  
- 3.當螢幕伸縮(resize)時，介面與 JS 功能也需正常
+ 3.當螢幕伸縮(resize)時，介面與 JS 功能也需正常  
+ 
+ 
+   ## 使用 Grid 製作出響應式的正方形  
+  <a href="https://codepen.io/krystof-k/pen/vdNQGB" target="_blank">Flexible square grid with CSS Grid Layout</a>  
+  
+  ## 照片底下沒有滿版怎麼辦? 除了 vertical-align:baseline 以外的解決方法
+   ![image]( https://github.com/HuiyuLiz/js-lightbox/blob/master/img/screenshot-1.jpg)    
+   
+   基於 img 預設 vertical-align: baseline，可以看到圖片底下因沒有滿版而出現了空隙，解決方式如下。
+   
+```css
+img{
+ //第一種方法
+  display: block;
+
+  //第二種方法(top 或 middle 或 bottom)
+  vertical-align: top;
+}
+```  
+ 
  
   ## 點選照片顯示 Modal(互動視窗)  
   
@@ -83,22 +103,8 @@
   
  window.addEventListener('click', closeOutside)
 ```  
-  ## 照片底下沒有滿版怎麼辦? 除了 vertical-align:baseline 以外的解決方法
-   ![image]( https://github.com/HuiyuLiz/js-lightbox/blob/master/img/screenshot-1.jpg)    
-   
-   基於 img 預設 vertical-align: baseline，可以看到圖片底下因沒有滿版而出現了空隙，解決方式如下。
-   
-```css
-img{
- //第一種方法
-  display: block;
 
-  //第二種方法(top 或 middle 或 bottom)
-  vertical-align: top;
-}
-```  
-   ## 使用 Grid 製作出響應式的正方形  
-  <a href="https://codepen.io/krystof-k/pen/vdNQGB" target="_blank">Flexible square grid with CSS Grid Layout</a>  
+
    
 
   ## 參考資料
